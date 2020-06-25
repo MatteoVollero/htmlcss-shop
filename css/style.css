@@ -52,6 +52,7 @@ li.cuffie{
 .green{
   background-color: green;
 }
+
 .cuoricino{
   display: none;
   position: absolute;
@@ -59,6 +60,7 @@ li.cuffie{
   bottom: 0;
   left: 50%;
 }
-.cuoricino:hover{
+/* dico che quando va col mouse sopra ad un list item esce il cuoricino */
+li:hover div.cuoricino{
   display: inline;
 }
