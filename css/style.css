@@ -2,11 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: lightgrey;
 }
 
 #container{
   position: relative;
-  left: 15%;
+  left: 20%;
+  top: 20px;
 }
 
 
@@ -55,7 +57,9 @@ li.cuffie{
 
 .cuoricino{
   display: none;
+  /* background-color: inherit; */
   position: absolute;
+  font-size: 30px;
   color: red;
   bottom: 0;
   left: 50%;
