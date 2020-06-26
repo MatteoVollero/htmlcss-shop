@@ -66,5 +66,5 @@ li.cuffie{
 }
 /* dico che quando va col mouse sopra ad un list item esce il cuoricino */
 li:hover div.cuoricino{
-  display: inline;
+  display: block;
 }
